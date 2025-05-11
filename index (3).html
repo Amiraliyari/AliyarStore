@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>فروشگاه آلیار</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 20px;
+      border-radius: 20px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background-color: white;
+      border-radius: 16px;
+      padding: 16px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .card img {
+      width: 100%;
+      height: 150px;
+      background-color: #ddd;
+      border-radius: 10px;
+    }
+    .card h2 {
+      font-size: 18px;
+      margin: 10px 0 5px;
+    }
+    .card p {
+      font-size: 14px;
+      color: #555;
+    }
+    .card .price {
+      color: #007bff;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .card button {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>فروشگاه آلیار</h1>
+    <p>موبایل و لوازم جانبی با بهترین قیمت</p>
+  </header>
+  <section class="products">
+    <div class="card">
+      <img alt="product">
+      <h2>گوشی هوشمند</h2>
+      <p>توضیح کوتاه درباره گوشی</p>
+      <div class="price">۵٬۰۰۰٬۰۰۰ تومان</div>
+      <button>افزودن به سبد</button>
+    </div>
+    <div class="card">
+      <img alt="product">
+      <h2>هندزفری بلوتوث</h2>
+      <p>توضیح کوتاه درباره هندزفری</p>
+      <div class="price">۷۵۰٬۰۰۰ تومان</div>
+      <button>افزودن به سبد</button>
+    </div>
+  </section>
+</body>
+</html>
